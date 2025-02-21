@@ -1,0 +1,18 @@
+Hmtl ve CSS seviyesi ölçmek amacıyla aşağıdaki ödevi hazırladım.
+
+Pazartesiye kadar ödev;
+
+html ve css işaretleme dilleri kullanarak, basic bir web sayfası tasarlamanı istiyorum.
+
+1- web sayfasının arka planı siyah olacak.
+2- en üste büyük puntolarla "Efe says Hello World" yazacak ve beyaz renkte olacak. 
+3- 1 tane combobox eklemeni istiyorum. google, yahoo ve yandex isimlerinde üç adet değişkeni olacak.Hemen yanında kullanıcının veri girebildiği bir textbox olmalı.
+4- combobox ve textbox'ın altında ve tam ortasında bir buton olmalı.
+5- kullanıcı butona bastığında, kullanıcının textbox'a yazdığı string değeri, yeni sekme açarak combobox'ta hangi arama motoru seçili ise orada arayacak. eğer textbox boşsa, uyarı verecek ve doldurulması zorunludur diyecek.
+
+Hint: vscode kullanman daha kolay olabilir. Çünkü Yapacağın testler için vscode extensions larını kullanabilirsin. vscode kullanmazsan eğer localhost'ta bir webserver başlatmak için Apache isminde bir tool'a ihtiyacın olacak. Bence vscode kullan ama sen bilirsin, yoğurt yiyişine karışmıyorum.
+
+
+Not: Bu ödevi en geç pazartesi sabaha kadar github'a yüklemen gerekli. tamamını yapamamış olsan da yapabildiğin kadarını mutlaka yüklemelisin. ne kadarını yapabileceğini de ölçmek istiyorum.
+
+Kolaylıklar dilerim.
