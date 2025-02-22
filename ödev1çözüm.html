@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            ödev1
+        </title>
+    </head>
+    <body style="background-color: black;">
+        <h1 style="color: white; font-size: 60px;">
+            Efe says Hello World
+        </h1>
+        
+        <form action="">
+            <select name="websitesi" id="site" style="width: 250px; height: 100px; font-size: xx-large;">
+                <option value="0">yahoo.com</option>
+                <option value="1">yandex.com</option>
+                <option value="2">google.com</option>
+            </select>
+
+            <input type="text" id="textbox" name="girdi" style="width: 500px; height: 90px; font-size: xx-large; margin-left: 10px;">
+
+            <br>
+
+            <input onclick="git()" type="button" value="gonder" style="width: 250px; height: 100px; font-size: xx-large; margin-left: 150px; margin-top: 10px;">
+        </form>
+        
+        <script>
+            var array = ["https://search.yahoo.com/search?p=", "https://yandex.com/search/?text=", "https://www.google.com/search?q="]
+            function git(){
+                var x = document.getElementById("site").value
+                var y = document.getElementById("textbox").value
+                if (y == "") {
+                    alert("Doldurulmasi Zorunludur")
+                    return
+                }
+                if (x == "0") {
+                    window.open(array[0] + y, "_blank")
+                }
+                if (x == "1") {
+                    window.open(array[1] + y, "_blank")
+                }
+                if (x == "2") {
+                    window.open(array[2] + y, "_blank")
+                }
+            }
+        </script>
+    </body>
+</html>
