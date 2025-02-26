@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>
+            ödev1
+        </title>
+
+        <link rel="stylesheet" href="./output.css">
+
+    </head>
+
+    <body class="bg-yellow-600">
+
+        <div class="m-8">
+            <h1 class="text-center">
+                <span class="bg-yellow-500 rounded-full text-white text-6xl pb-3 pr-4 pl-4 pt-1 m-8">
+                    Efe says Hello World
+                </span>
+            </h1>
+        </div>
+        
+        
+        <form action="" class="my-20 bg-indigo-400 m-[500px] rounded-xl space-y-5 shadow-2xl">
+
+            <div class="justify-center flex">
+
+                <select name="websitesi" id="site" class="w-52 h-16 text-3xl rounded-full text-center mt-3 flex justify-center">
+                    <option value="0">yahoo.com</option>
+                    <option value="1">yandex.com</option>
+                    <option value="2">google.com</option>
+                </select>
+
+            </div>
+
+            <div class="flex justify-center">
+                <input type="text" id="textbox" name="girdi" class="w-96 h-14 text-4xl rounded-lg flex justify-center">
+            </div>
+
+            <div class="flex justify-center">
+                <input onclick="git()" type="button" value="Git" class="text-white w-36 h-12 text-2xl  flex mb-3 rounded-full shadow-2xl bg-purple-700">
+            </div>
+
+        </form>
+        
+        
+        
+
+        <script>
+            var array = ["https://search.yahoo.com/search?p=", "https://yandex.com/search/?text=", "https://www.google.com/search?q="]
+            function git(){
+                var x = document.getElementById("site").value
+                var y = document.getElementById("textbox").value
+                if (y == "") {
+                    alert("Doldurulmasi Zorunludur")
+                    return
+                }
+                if (x == "0") {
+                    window.open(array[0] + y, "_blank")
+                }
+                if (x == "1") {
+                    window.open(array[1] + y, "_blank")
+                }
+                if (x == "2") {
+                    window.open(array[2] + y, "_blank")
+                }
+            }
+        </script>
+
+    </body>
+
+</html>
