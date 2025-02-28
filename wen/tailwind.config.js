@@ -10,6 +10,9 @@ module.exports = {
         'textcolor3': "#89898b",
         'textbgcolor': '#fee9e8',
         'bordercolor': '#b2b1b7',
+      },
+      margin: {
+        '0.1': '1px',
       }
     },
   },
