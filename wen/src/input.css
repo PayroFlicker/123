@@ -4,6 +4,6 @@
 
 @layer components {
     .parag {
-        @apply p-1 text-xs font-medium text-textcolor3 border-2 border-bordercolor rounded-md; 
+        @apply p-1 text-xs font-medium text-textcolor3 border-2 border-bordercolor rounded-md hover:border-red-600; 
     }
 }
